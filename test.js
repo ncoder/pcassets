@@ -15,7 +15,7 @@ pc.script.create("rotate", function (app) {
         },
 
         update: function (dt) {
-            this.entity.rotate(0, -10*dt, 0);
+            this.entity.rotate(0, -310*dt, 0);
         }
     };
 
